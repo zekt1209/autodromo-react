@@ -1,0 +1,86 @@
+:root {
+    --black: #000000;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.autodromo {
+    /* display: flex; */
+    width: 100%;
+    background-color: papayawhip;
+
+    border: 1px solid papayawhip;
+
+    /* margin-bottom: 5px; */
+}
+
+.autodromoTitle {
+    text-align: center;
+}
+
+.pistaCarreras {
+    position: absolute;
+    left: 0;
+
+    width: 1400px;
+    height: 444px;
+}
+
+#c1 {
+    position: absolute;
+    top: 90px;
+}
+#c2 {
+    position: absolute;
+    top: 160px;
+}
+#c3 {
+    position: absolute;
+    top: 230px;
+}
+#c4 {
+    position: absolute;
+    top: 300px;
+}
+#c5 {
+    position: absolute;
+    top: 370px;
+}
+
+.runBtn {
+    position: absolute;
+    top: 550px;
+
+    width: 150px;
+    height: 50px;
+
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.runBtn:hover {background-color: #3e8e41}
+
+.runBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.carImg {
+    width: 100px;
+    height: 100px;
+    /* position: absolute; */
+}
